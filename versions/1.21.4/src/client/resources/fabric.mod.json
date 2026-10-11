@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "commandkeys",
+  "version": "${version}",
+  "name": "CommandKeys",
+  "description": "Привязывайте игровые команды к клавишам и их сочетаниям.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.dmitry.commandkeys.CommandKeysClient"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
